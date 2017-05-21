@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'carfont';
+    src: url("../fonts/Metrosant-Regular.ttf");
+}
+
+body {
+    font-family: 'carfont';
+    color: #000000;
+    font-size: medium;
+}
+
+fieldset {
+    width: 85%;
+    height: 60vh;
+    margin: 0 auto 0;
+    border: none;
+}
+
+.container {
+    text-align: center;
+}
+
+#profile img {
+    width: 95%;
+    height: 95%;
+}
+
+#addfriend {
+    margin-left: 50px;
+    height: 15px;
+    width: 65px;
+    font-size: small;
+}
+
+#profile p {
+    font-family: "carfont";
+    font-size: large;
+    margin-left: 50px;
+}
+
+#headertext {
+    padding-left: 55px;
+}
+
+.recent,
+.recommended,
+.featured {
+    border-color: gray;
+    margin-bottom: 25px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.previewimg {
+    width: 95%;
+    height: 95%;
+}
