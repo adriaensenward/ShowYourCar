@@ -10,10 +10,10 @@ class Config
 
     private function __construct()
     {
-        $this->server = "gerbrand.be";
-        $this->database = "gerbrand_jd2";
-        $this->username = "gerbrand_jd2";
-        $this->password = "2gektt";
+        $this->server = "";
+        $this->database = "";
+        $this->username = "";
+        $this->password = "";
 
     }
 
